@@ -1,0 +1,52 @@
+
+
+ 
+Welcome Neil Robert Mutch from Building Web Applications in PHP
+Grading PHP-Intro Rock Paper Scissors
+To receive a grade for this assignment, include your name (Neil Robert Mutch) and/or this string 98afdcc1 in the <title> tag in all the pages of your application. 
+If you need to run this grading program on an application that is running on your laptop or desktop computer with a URL like http://localhost... you will need to install and use the NGrok or LocalTunnel application to get a temporary Internet-accessible URL that can be used with this application. 
+Re-run this test
+Initial page http://neilmutch.com/rps/index.php/...
+Show retrieved page (Toggle) (1114 characters) 
+Looking for an anchor tag with text of 'Please Log In' (case matters)
+Retrieving http://neilmutch.com/rps/index.php/login.php...
+Test passed: login.php page retrieved
+Show retrieved page (Toggle) (1114 characters) 
+<head>
+<title>98afdcc1 </title>
+<!-- Latest compiled and minified CSS --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<!-- Optional theme --><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+<!-- Custom styles for this template --><link href="starter-template.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+<h1>Welcome to Neil Mutch - Rock/Paper/Scissors</h1>
+<p><strong>Note:</strong> This sample code is only
+partially done and serves ony as a starting point for the assignment.
+</p>
+<p>
+<a href="login.php">Please Log In</a>
+</p>
+<p>
+Attempt to go to 
+<a href="game.php">game.php</a> without logging in - it should fail with an error message.
+</p>
+<p>
+<a href="http://www.wa4e.com/code/rps.zip" target="_blank">Source Code for this Application</a>
+</p>
+</div>
+</body>
+
+Looking for the form with a value="Log In" submit button
+Did not find form with a "Log In" button
+The autograder did not find something it was looking for in your HTML - test ended.
+Usually the problem is in one of the pages returned from your application.
+Use the 'Toggle' links above to see the pages returned by your application.
+Score = 0.058823529411765 (1/17)
+Test passed - congratulations
+Grade updated result_id=22296 grade=0.058823529411765
+Sending 0.058823529411765 to https://api.coursera.org/api/onDemandLtiOutcomes.v1 sourcedid=ondemand~d37e0ca535bbb4367a2dc316036e3ebc!~tTat0VwuEeeDOQrEEZRi7A!~27K74!~LBxB0A0PEeieeQ5i3sgHKg
+Grade API Request (Toggle) (954 characters) 
+Grade API Response (Toggle) (883 characters) 
+Grade sent 0.058823529411765 to ondemand~d37e0ca535bbb4367a2dc316036e3ebc!~tTat0VwuEeeDOQrEEZRi7A!~27K74!~LBxB0A0PEeieeQ5i3sgHKg by 3306
+Grade sent to server (0.058823529411765)

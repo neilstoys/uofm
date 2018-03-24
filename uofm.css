@@ -1,0 +1,170 @@
+/* 
+/////////////////////////////////////////
+// COMPANY : UofMichigan Training      //
+// PROJECT : UofMichigan Training      //
+// FILE    : uofm.css                  //
+// CREATED : Mar 10 2018               //
+// MODIFIED :                          //
+/////////////////////////////////////////
+rgba(29, 89, 5, 1); Green text of title
+
+*/
+
+/* RESERVED */
+header {
+    background: rgba(210, 232, 246, 1);
+}
+body {background: rgba(210, 232, 246, 1);}
+
+/*center background image*/
+#dv {}
+/*bg image with opacity without affecting the text*/
+div#dv::after { /*has to be done AFTER the dv is created*/
+  content: ""; /*important this is first up*/
+  /*background: url(../img/face.jpg) no-repeat 0 0;*/
+  top: 0; /*0 = whole image*/
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1; 
+  background-position:50% 85%;
+  opacity: 0.3;  
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; // IE8
+  filter: alpha(opacity=50); // IE 5-7
+      width: 80%;
+    height: auto;
+    
+}
+html,body,#dv { /*creates a document wide div on about.php*/
+    width:100%;
+}
+/*end center background image*/
+
+#mainPageContent {
+    background-color: burlywood;
+    padding: 50px;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    background: rgba(29, 89, 5, .5);
+}
+section{
+
+}
+div {
+
+}
+p{
+    padding:1%;
+    /*color: rgba(7, 3, 62, 1);*/
+}
+h1{
+    color: #ff0000;
+    text-align: center;
+}
+
+/*NOT RESERVED*/
+/*center image*/
+img.img-center {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#centerDivContent{
+    text-align: center;
+}
+.fontRed {
+    color: #f00 !important;
+}
+/*TABLE*/
+.mytable {
+    border: 1px solid #000;
+}
+.mytd {
+    border: 1px solid #000;
+    width: 30px;
+    text-align: center;
+    background-color: #ff0;
+}
+
+
+
+
+
+/*NAV BAR*/
+/*corner toggle / icon-bar*/
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: rgba(15,6,98,1);  /*change line colour of square icon-bar - dark blue*/
+}
+.navbar-inverse .navbar-toggle {
+background-color:  rgba(210, 232, 246, 1);  /*change bg colour of square icon-bar - l.blue*/
+}
+.navbar-inverse .navbar-toggle:hover {
+background-color: rgba(255, 255, 255, 1);  /*change bg colour of square icon-bar on hover*/
+}
+.navbar-inverse .navbar-toggle:focus {
+background-color: rgba(255, 255, 255, 1);  /*change bg colour of square icon-bar on focus*/
+}
+/*navbar*/
+.navbar-inverse {
+    background-color:rgba(0,0,102,1); /*change colour of navbar bar - dk blue*/
+    border-color: #E7E7E7; /*change colour of navbar bar*/
+}
+/* title */
+.navbar-inverse .navbar-brand {
+    color: rgba(210, 232, 246, 1); /*change colour of navbar brand l.blue*/
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: rgba(255, 255, 255, 1); /*change colour of navbar brand on hover/focus - white*/
+}
+/* link */
+.navbar-inverse .navbar-nav > li > a {
+    color: rgba(210, 232, 246, 1); /*change colour of links - l.blue*/
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #333; /*change colour of links on hover/focus*/
+}
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: rgba(15,6,98,1); 		/*change colour of active tab - dk blue*/
+    background-color: rgba(210, 232, 246, 1);  /*change colour of active tab bg- l.blue*/
+}
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: rgba(15,6,98,1);		/*change colour of clicked top level link - dk blue*/
+    background-color:  rgba(210, 232, 246, 1);	/*change colour of clicked top level link bg - l.blue*/
+}
+/* caret */
+.navbar-inverse .navbar-nav > .dropdown > a .caret {
+    border-top-color: rgba(210, 232, 246, 1); /*change colour of carat - l.blue*/
+    border-bottom-color: #777; /*???*/
+}
+.navbar-inverse .navbar-nav > .dropdown > a:hover .caret,
+.navbar-inverse .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: rgba(255, 255, 255, 1); /*change colour of carat on hover/focus - white*/
+    border-bottom-color: #333; /*???*/
+}
+.navbar-inverse .navbar-nav > .open > a .caret,  
+.navbar-inverse .navbar-nav > .open > a:hover .caret, 
+.navbar-inverse .navbar-nav > .open > a:focus .caret {
+    border-top-color: rgba(15,6,98,1); /*change colour of carat when clicked - dk blue*/
+    border-bottom-color: #555; /*???*/
+}
+/*Dropdown menu*/ 
+.navbar-nav > li > .dropdown-menu {background-color: rgba(210, 232, 246, 1);} /*bg colour of dd menu - l.blue*/
+.dropdown-menu li>a{color: rgba(15,6,98,1); } /*colour of dd menu text - dk blue*/
+.dropdown-menu li>a:hover{background: rgba(15,6,98,1); } /*change colour of dd menu hover bg - dk blue*/
+.dropdown-menu li>a:hover{color: rgba(255, 255, 255, 1); }  /*change text colour of dd menu hover - white*/
+.dropdown-menu li>a:focus{background: rgba(0, 0, 0, 1); } /*change bg colour of dd menu focus - black*/
+ 
+.navbar .nav .active > .dropdown-toggle, .navbar .nav .open.active > .dropdown-toggle {
+  background-color: rgba(210, 232, 246, 1); /*Dropdown top navbar menu link highlighted*/
+}
+
